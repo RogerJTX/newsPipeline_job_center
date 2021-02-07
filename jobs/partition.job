@@ -1,0 +1,4 @@
+type=command
+command=/home/liangzhi/anaconda3/bin/python3 ../codes/news_partition.py ${date}
+retries=3
+retry.backoff=5000

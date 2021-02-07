@@ -1,0 +1,5 @@
+type=command
+command=/home/liangzhi/anaconda3/bin/python3 ../codes/news_arango2hbase.py ${date}
+dependencies=news_pipeline
+retries=3
+retry.backoff=5000

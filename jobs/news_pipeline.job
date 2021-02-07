@@ -1,0 +1,5 @@
+type=command
+command=/home/liangzhi/anaconda3/bin/python3 ../codes/news_pipeline.py ${date}
+dependencies=partition
+retries=3
+retry.backoff=5000
